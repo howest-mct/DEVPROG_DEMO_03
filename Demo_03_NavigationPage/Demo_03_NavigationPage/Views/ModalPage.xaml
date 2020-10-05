@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo_03_NavigationPage.Views.ModalPage"
+             Title="Bier overview">    <!--even though the title property is set, it will not be visible in a modal page-->
+
+    <ContentPage.Content>
+        <StackLayout Margin="16">
+            <Label Text="This is an agreement you need to accept. You simply have to. Do it - do it - do it - do it!!" />
+            <Button Text="Click to accept!" Clicked="Accept_Clicked" />
+            <Button x:Name="btnGoBack" Text="Go back" Clicked="btnGoBack_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

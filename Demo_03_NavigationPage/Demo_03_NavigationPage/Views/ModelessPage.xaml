@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo_03_NavigationPage.Views.ModelessPage"
+             Title="Modeless title"
+             NavigationPage.BackButtonTitle="go back"
+             NavigationPage.HasBackButton="True"
+             NavigationPage.HasNavigationBar="True"            >
+    <ContentPage.Content>
+        <StackLayout Margin="16">
+            <Label Text="This is your favorite modeless page. You can go back to the main page whenever / however you want." />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

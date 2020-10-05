@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo_03_TabbedPage.MainPage"
+            xmlns:local="clr-namespace:Demo_03_TabbedPage"
+            xmlns:view="clr-namespace:Demo_03_TabbedPage.View">
+
+    <!--TAB 1-->
+    <view:BreweryOverview Title="breweries" />
+    <!--TAB 2-->
+    <view:BeerOverview Title="all beers" IsAlcoholic="{x:Null}" />
+    <!--TAB 3-->
+    <view:BeerOverview Title="alcohol free"  IsAlcoholic="False" />
+
+</TabbedPage>

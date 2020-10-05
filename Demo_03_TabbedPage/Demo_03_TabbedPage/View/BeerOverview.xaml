@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo_03_TabbedPage.View.BeerOverview">
+    <ContentPage.Content>
+        <StackLayout Margin="16">
+            <ListView x:Name="lvwBeers">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="https://d30y9cdsu7xlg0.cloudfront.net/png/6597-200.png" Text="{Binding Name}" TextColor="Black" 
+                                   Detail="{Binding Brewery}" DetailColor="Gray"  />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo_03_MasterDetail.View.BeerDetailPage"
+             Title="Beer details">
+    <ContentPage.Content>
+        <StackLayout Margin="16">
+            <Label x:Name="lblName" Text="(name)" />
+            <Label x:Name="lblBrewery" Text="(brewery)" />
+            <Label x:Name="lblAlcohol" Text="(alcohol)" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
