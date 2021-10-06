@@ -13,19 +13,21 @@ namespace Demo_03_TabbedPage.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BeerOverview : ContentPage
     {
-        public bool? IsAlcoholic { get; set; }
+        
 
         public BeerOverview()
         {
             InitializeComponent();
-
             LoadBeerList();
+
         }
+
+
 
         private void LoadBeerList()
         {
-            if (IsAlcoholic == null) lvwBeers.ItemsSource = Beer.GetBeers();
-            else lvwBeers.ItemsSource = Beer.GetBeersFiltered((bool)IsAlcoholic);
+            lvwBeers.ItemsSource = Beer.GetBeers();
+
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo_03_TabbedPage.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,7 +14,6 @@ namespace Demo_03_TabbedPage
         public MainPage()
         {
             InitializeComponent();
-
         }
     }
 }
