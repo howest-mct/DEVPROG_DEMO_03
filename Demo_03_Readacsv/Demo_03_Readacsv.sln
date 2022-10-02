@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30517.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_03_Readacsv.UWP", "Demo_03_Readacsv.UWP\Demo_03_Readacsv.UWP.csproj", "{3427031B-BE06-42B9-A841-647361468534}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_03_Readacsv.Android", "Demo_03_Readacsv.Android\Demo_03_Readacsv.Android.csproj", "{5DE32D69-2CFB-4402-A010-861D24A78941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_03_Readacsv", "Demo_03_Readacsv\Demo_03_Readacsv.csproj", "{440AD312-271A-4A0B-8AFA-446A966C3EB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_03_Readacsv", "Demo_03_Readacsv\Demo_03_Readacsv.csproj", "{440AD312-271A-4A0B-8AFA-446A966C3EB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,30 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|Any CPU.Build.0 = Debug|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|Any CPU.Deploy.0 = Debug|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|ARM.ActiveCfg = Debug|ARM
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|ARM.Build.0 = Debug|ARM
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|ARM.Deploy.0 = Debug|ARM
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|x64.ActiveCfg = Debug|x64
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|x64.Build.0 = Debug|x64
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|x64.Deploy.0 = Debug|x64
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|x86.ActiveCfg = Debug|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|x86.Build.0 = Debug|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Debug|x86.Deploy.0 = Debug|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Release|Any CPU.ActiveCfg = Release|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Release|Any CPU.Build.0 = Release|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Release|Any CPU.Deploy.0 = Release|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Release|ARM.ActiveCfg = Release|ARM
-		{3427031B-BE06-42B9-A841-647361468534}.Release|ARM.Build.0 = Release|ARM
-		{3427031B-BE06-42B9-A841-647361468534}.Release|ARM.Deploy.0 = Release|ARM
-		{3427031B-BE06-42B9-A841-647361468534}.Release|x64.ActiveCfg = Release|x64
-		{3427031B-BE06-42B9-A841-647361468534}.Release|x64.Build.0 = Release|x64
-		{3427031B-BE06-42B9-A841-647361468534}.Release|x64.Deploy.0 = Release|x64
-		{3427031B-BE06-42B9-A841-647361468534}.Release|x86.ActiveCfg = Release|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Release|x86.Build.0 = Release|x86
-		{3427031B-BE06-42B9-A841-647361468534}.Release|x86.Deploy.0 = Release|x86
 		{5DE32D69-2CFB-4402-A010-861D24A78941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DE32D69-2CFB-4402-A010-861D24A78941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DE32D69-2CFB-4402-A010-861D24A78941}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
